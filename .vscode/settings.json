@@ -6,5 +6,8 @@
     "python.unitTest.pyTestArgs": ["tests/"],
 
     // Whether to enable or disable unit testing using pytest.
-    "python.unitTest.pyTestEnabled": true
+    "python.unitTest.pyTestEnabled": true,
+
+    // Use the experimental debugger when debugging unit tests.
+    "python.unitTest.useExperimentalDebugger": true
 }
