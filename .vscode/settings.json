@@ -1,0 +1,13 @@
+{
+    // Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
+    "python.pythonPath": "${workspaceRoot}\\.venv\\Scripts\\python.exe",
+
+    // Arguments passed in. Each argument is a separate item in the array.
+    "python.unitTest.pyTestArgs": ["tests/"],
+
+    // Whether to enable or disable unit testing using pytest.
+    "python.unitTest.pyTestEnabled": true,
+
+    // Use the experimental debugger when debugging unit tests.
+    "python.unitTest.useExperimentalDebugger": true
+}
